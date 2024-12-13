@@ -1,0 +1,155 @@
+.intro_wrapper {
+  width: 1296px;
+  height: 542px;
+  margin:  auto;
+
+  .intro_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+
+  .intro_img {
+    margin-left: 25px;
+  }
+
+  .intro_bck {
+    background-image: url("../img/intro_wrapper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 856px;
+    height: 540px;
+  }
+
+  .intro_title {
+    position: absolute;
+    width: 623px;
+    height: 120px;
+
+    /* heading/40b */
+    font-family: " Poppins";
+    margin: 310px 50px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    /* or 60px */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* white */
+    color: #ffffff;
+  }
+
+  .intro_btn {
+    position: absolute;
+    /* Frame 3 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px 7px;
+    gap: 10px;
+
+    width: 154px;
+    margin: 210px 50px;
+    height: 44px;
+
+    /* white */
+    background: #ffffff;
+    border-radius: 5px;
+
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* black */
+    color: #210e09;
+  }
+
+  .intro_right {
+    /* Rectangle 31 */
+
+    width: 416px;
+    height: 502px;
+
+    /* accent */
+    background-color: #33160b;
+    border-radius: 0px 0px 5px 5px;
+  }
+
+  .intro_btn1 {
+    /* Frame 4 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px 7px;
+    gap: 10px;
+
+    width: 208px;
+    height: 40px;
+
+    background: rgba(213, 98, 29, 0.1);
+    border-radius: 5px 5px 0px 0px;
+
+    /* other/14b-ttu-5% */
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* white */
+    color: #ffffff;
+  }
+
+  .intro_btn2 {
+    /* Frame 5 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px 7px;
+    gap: 10px;
+
+    width: 208px;
+    height: 40px;
+
+    background: rgba(213, 98, 29, 0.05);
+    border-radius: 5px 5px 0px 0px;
+    /* other/14b-ttu-5% */
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* white */
+    color: #ffffff;
+  }
+
+  .intro_btn_box{
+    display: flex;
+  }
+
+}

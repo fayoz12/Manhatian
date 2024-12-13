@@ -1,0 +1,178 @@
+.head_wrapper {
+  width: 100%;
+  height: 983px;
+  margin:  auto;
+
+  .head_btn {
+    /* lead */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 7px;
+    gap: 10px;
+
+    width: 244px;
+    height: 38px;
+
+    /* white */
+    background: #ffffff;
+    border-radius: 5px;
+
+    /* other/14b-ttu-5% */
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    margin: auto;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* black */
+    color: #210e09;
+    border: none;
+  }
+
+  .head_title {
+    /* Кухня */
+
+    width: 623px;
+    height: 60px;
+
+    /* heading/40b */
+    font-family: "Gotham Pro";
+    font-style: normal;
+    margin: 50px auto;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    /* identical to box height, or 60px */
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* white */
+    color: #ffffff;
+  }
+
+  .head_blok_title {
+    /* Amet donec. */
+
+    width: 232px;
+    height: 27px;
+
+    /* other/18b-ttu-5% */
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* white */
+    color: #ffffff;
+  }
+
+  .head_text {
+    /* 200 гр */
+
+    width: 232px;
+    height: 21px;
+
+    /* p/14r */
+    font-family: "Stolzl";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    /* accent */
+    color: #d5621d;
+  }
+
+  .head_text1 {
+    width: 351px;
+    height: 42px;
+
+    /* p/14r */
+    font-family: "Stolzl";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    /* white */
+    color: #ffffff;
+  }
+
+  .head_blok_btn {
+    /* info */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 7px;
+    background-color: inherit;
+    gap: 10px;
+
+    width: 84px;
+    height: 38px;
+
+    /* accent */
+    border: 2px solid #d5621d;
+    border-radius: 5px;
+
+    /* 550 ₽ */
+
+    /* other/14b-ttu-5% */
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* white */
+    color: #ffffff;
+  }
+
+  .head_blok1 {
+    width: 486px;
+    height: 111px;
+    gap: 25px;
+    display: flex;
+  }
+
+  .head_text_blok {
+    width: 351px;
+    height: 111px;
+  }
+  .head_text_box {
+    display: flex;
+  }
+
+  .head_food_blok {
+    width: 1200px;
+    height: 612px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 110px auto;
+  }
+}

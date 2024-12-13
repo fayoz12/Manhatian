@@ -1,0 +1,651 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #210e09;
+}
+
+.nav_wrapper {
+  width: 100%;
+  height: 735px;
+  margin: auto;
+}
+.nav_wrapper .nav_item {
+  /* Главная */
+  width: 60px;
+  height: 21px;
+  /* p/14r */
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  /* white */
+  color: #ffffff;
+}
+.nav_wrapper .nav_logo {
+  width: 190px;
+  height: 50px;
+}
+.nav_wrapper .nav_btn {
+  /* button */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 30px;
+  gap: 10px;
+  width: 188px;
+  height: 51px;
+  background-color: inherit;
+  /* accent */
+  border: 2px solid #d5621d;
+  border-radius: 5px;
+  /* other/14r-ttu-5% */
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.nav_wrapper .nav_box {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav_wrapper .nav_item_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 210px;
+}
+
+.intro_wrapper {
+  width: 1296px;
+  height: 542px;
+  margin: auto;
+}
+.intro_wrapper .intro_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+.intro_wrapper .intro_img {
+  margin-left: 25px;
+}
+.intro_wrapper .intro_bck {
+  background-image: url("../img/intro_wrapper.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 856px;
+  height: 540px;
+}
+.intro_wrapper .intro_title {
+  position: absolute;
+  width: 623px;
+  height: 120px;
+  /* heading/40b */
+  font-family: " Poppins";
+  margin: 310px 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150%;
+  /* or 60px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.intro_wrapper .intro_btn {
+  position: absolute;
+  /* Frame 3 */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px 7px;
+  gap: 10px;
+  width: 154px;
+  margin: 210px 50px;
+  height: 44px;
+  /* white */
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* black */
+  color: #210e09;
+}
+.intro_wrapper .intro_right {
+  /* Rectangle 31 */
+  width: 416px;
+  height: 502px;
+  /* accent */
+  background-color: #33160b;
+  border-radius: 0px 0px 5px 5px;
+}
+.intro_wrapper .intro_btn1 {
+  /* Frame 4 */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 10px 7px;
+  gap: 10px;
+  width: 208px;
+  height: 40px;
+  background: rgba(213, 98, 29, 0.1);
+  border-radius: 5px 5px 0px 0px;
+  /* other/14b-ttu-5% */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.intro_wrapper .intro_btn2 {
+  /* Frame 5 */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 10px 7px;
+  gap: 10px;
+  width: 208px;
+  height: 40px;
+  background: rgba(213, 98, 29, 0.05);
+  border-radius: 5px 5px 0px 0px;
+  /* other/14b-ttu-5% */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.intro_wrapper .intro_btn_box {
+  display: flex;
+}
+
+.head_wrapper {
+  width: 100%;
+  height: 983px;
+  margin: auto;
+}
+.head_wrapper .head_btn {
+  /* lead */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 7px;
+  gap: 10px;
+  width: 244px;
+  height: 38px;
+  /* white */
+  background: #ffffff;
+  border-radius: 5px;
+  /* other/14b-ttu-5% */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  margin: auto;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* black */
+  color: #210e09;
+  border: none;
+}
+.head_wrapper .head_title {
+  /* Кухня */
+  width: 623px;
+  height: 60px;
+  /* heading/40b */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  margin: 50px auto;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150%;
+  /* identical to box height, or 60px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.head_wrapper .head_blok_title {
+  /* Amet donec. */
+  width: 232px;
+  height: 27px;
+  /* other/18b-ttu-5% */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.head_wrapper .head_text {
+  /* 200 гр */
+  width: 232px;
+  height: 21px;
+  /* p/14r */
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  /* accent */
+  color: #d5621d;
+}
+.head_wrapper .head_text1 {
+  width: 351px;
+  height: 42px;
+  /* p/14r */
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  /* white */
+  color: #ffffff;
+}
+.head_wrapper .head_blok_btn {
+  /* info */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 7px;
+  background-color: inherit;
+  gap: 10px;
+  width: 84px;
+  height: 38px;
+  /* accent */
+  border: 2px solid #d5621d;
+  border-radius: 5px;
+  /* 550 ₽ */
+  /* other/14b-ttu-5% */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.head_wrapper .head_blok1 {
+  width: 486px;
+  height: 111px;
+  gap: 25px;
+  display: flex;
+}
+.head_wrapper .head_text_blok {
+  width: 351px;
+  height: 111px;
+}
+.head_wrapper .head_text_box {
+  display: flex;
+}
+.head_wrapper .head_food_blok {
+  width: 1200px;
+  height: 612px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 110px auto;
+}
+
+.main_wrapper {
+  width: 100%;
+  height: 906px;
+  margin: auto;
+}
+.main_wrapper .main_btn {
+  /* lead */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 7px;
+  gap: 10px;
+  width: 244px;
+  height: 38px;
+  /* white */
+  background: #ffffff;
+  border-radius: 5px;
+  /* Top “Manhattan” menu */
+  margin: auto;
+  /* other/14b-ttu-5% */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* black */
+  color: #210e09;
+}
+.main_wrapper .main_title {
+  /* Кухня */
+  width: 623px;
+  height: 60px;
+  /* heading/40b */
+  margin: 50px auto;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150%;
+  /* identical to box height, or 60px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.main_wrapper .main_blok {
+  width: 526px;
+  height: 688px;
+}
+.main_wrapper .main_glav_box {
+  /* Frame 19 */
+  width: 526px;
+  height: 253px;
+  /* accent */
+  background: #d5621d;
+  border-radius: 5px;
+}
+.main_wrapper .main_box_title {
+  /* Loudspeakers */
+  width: 163px;
+  height: 27px;
+  /* other/18b-ttu-5% */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.main_wrapper .main_box_text {
+  /* Acoustic system BELL Top 600W x 2 Acoustic system BELL Mid 600W x 2 Acoustic system BELL Sub 1000W x 2 Front monitor Yamaha SM12V 300w x 2 Backside monitor Dynacord 500W x 2 */
+  width: 415px;
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 20px 0;
+  line-height: 150%;
+  /* or 21px */
+  /* white */
+  color: #ffffff;
+}
+.main_wrapper .main_blok_text {
+  /* Loudspeakers */
+  width: 110px;
+  height: 27px;
+  margin-left: 15px;
+  /* other/18b-ttu-5% */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.main_wrapper .main_glav_blok {
+  width: 526px;
+  height: 67px;
+  background: rgba(213, 98, 29, 0.1);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.main_wrapper .main_title_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_wrapper .main_glav_blok {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_wrapper .main_right_title {
+  width: 415px;
+  height: 96px;
+  /* heading/32b */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  /* or 48px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.main_wrapper .main_right_text {
+  /* Изотов Константин */
+  width: 156px;
+  height: 42px;
+  /* other/14b-ttu-5% */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.main_wrapper .main_glav_glav_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 120px;
+}
+.main_wrapper .main_right_img_box {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.footer_wrapper {
+  width: 1296px;
+  height: 1025px;
+  margin: auto;
+}
+.footer_wrapper .footer_glav_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_wrapper .footer_box {
+  /* Rectangle 45 */
+  box-sizing: border-box;
+  width: 416px;
+  height: 656px;
+  background: #33160b;
+  /* accent */
+  border: 2px solid #d5621d;
+  border-radius: 5px;
+}
+.footer_wrapper .footer_sub_title {
+  /* Адрес */
+  width: 316px;
+  height: 27px;
+  padding: 25px 25px;
+  /* other/18b-ttu-5% */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.footer_wrapper .footer_text {
+  /* Набережная реки Фонтанки, 90 (вход в арке с белыми колоннами) */
+  width: 316px;
+  height: 42px;
+  padding: 25px 25px;
+  /* p/14r */
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  /* white */
+  color: #ffffff;
+}
+.footer_wrapper .footer_btn {
+  /* Кухня */
+  width: 244px;
+  height: 38px;
+  /* other/14b-ttu-5% */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* black */
+  color: #210e09;
+  margin: 150px 510px;
+}
+.footer_wrapper .footer_title {
+  /* Кухня */
+  width: 623px;
+  height: 60px;
+  /* heading/40b */
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150%;
+  /* identical to box height, or 60px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* white */
+  color: #ffffff;
+}
+.footer_wrapper .footer_line {
+  /* Line 7 */
+  width: 1296px;
+  height: 0px;
+  margin-top: 50px;
+  border: 1px solid #ffffff;
+}
+.footer_wrapper .footer_last_box {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_wrapper .last_text {
+  /* Разработано d-e-n.ru */
+  width: 163px;
+  height: 21px;
+  /* p/14r */
+  font-family: "Stolzl";
+  font-style: normal;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  text-align: right;
+  /* white */
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
